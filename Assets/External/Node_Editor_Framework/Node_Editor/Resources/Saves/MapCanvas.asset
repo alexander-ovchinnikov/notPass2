@@ -1,0 +1,692 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e88eccf998f34b49b580c0f5143b630, type: 3}
+  m_Name: MapCanvas
+  m_EditorClassIdentifier: 
+  editorStates:
+  - {fileID: 114193627497078726}
+  saveName: MapCanvas
+  savePath: Assets/External/Node_Editor_Framework/Node_Editor/Resources/Saves/MapCanvas.asset
+  livesInScene: 0
+  nodes:
+  - {fileID: 114776432962088210}
+  - {fileID: 114861217358783850}
+  - {fileID: 114927249718960614}
+  - {fileID: 114233381321852632}
+  - {fileID: 114275175597120278}
+  - {fileID: 114397952314417928}
+  - {fileID: 114407765310985376}
+  - {fileID: 114083706855365726}
+  - {fileID: 114100127803899062}
+  groups: []
+  Name: Map
+--- !u!114 &114031493220624930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  body: {fileID: 114275175597120278}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114038952448015420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 114407765310985376}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114304682737423614}
+  side: 3
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114060376290073298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 114397952314417928}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114766910385637976}
+  side: 3
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114083706855365726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
+  m_Name: Wave Node
+  m_EditorClassIdentifier: 
+  position: {x: 185, y: -15.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  _enemy: {fileID: 1403619770946498, guid: 295d0c7e47eb247178b1cbb57e125482, type: 2}
+  _enemiesCount: 2
+  _delay: 0
+  _spawnInterval: 0
+  prev: {fileID: 114664206853417006}
+  next: {fileID: 114155280563036550}
+--- !u!114 &114100127803899062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
+  m_Name: Wave Node
+  m_EditorClassIdentifier: 
+  position: {x: 429, y: 39.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  _enemy: {fileID: 1403619770946498, guid: 295d0c7e47eb247178b1cbb57e125482, type: 2}
+  _enemiesCount: 2
+  _delay: 0
+  _spawnInterval: 0
+  prev: {fileID: 114710109936790172}
+  next: {fileID: 114663466371873652}
+--- !u!114 &114101241809867842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114927249718960614}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114538056896540170}
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114121491455814570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114861217358783850}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114155280563036550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114083706855365726}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114193627497078726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  parentEditor: {fileID: 0}
+  selectedNode: {fileID: 0}
+  panOffset: {x: -261, y: -65}
+  zoom: 1
+--- !u!114 &114218640087578142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114233381321852632}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: LevelConnection
+  _connections: []
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114233381321852632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 161edeb999cfa424789ac2e1894b79d4, type: 3}
+  m_Name: Level Node
+  m_EditorClassIdentifier: 
+  position: {x: 441, y: -138.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  next: {fileID: 114218640087578142}
+  prev: {fileID: 114460391974759602}
+  waves: {fileID: 114855916317245746}
+  Caption: 
+  Gold: 0
+--- !u!114 &114275175597120278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 161edeb999cfa424789ac2e1894b79d4, type: 3}
+  m_Name: Level Node
+  m_EditorClassIdentifier: 
+  position: {x: 208, y: -266.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  next: {fileID: 114751246658983840}
+  prev: {fileID: 114538056896540170}
+  waves: {fileID: 114031493220624930}
+  Caption: 
+  Gold: 0
+--- !u!114 &114304682737423614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  body: {fileID: 114927249718960614}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114038952448015420}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114319144496742434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Prev
+  m_EditorClassIdentifier: 
+  body: {fileID: 114927249718960614}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114726553800753206}
+  side: 4
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114319348304825826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  body: {fileID: 0}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114397952314417928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
+  m_Name: Wave Node
+  m_EditorClassIdentifier: 
+  position: {x: -100, y: 145.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  _enemy: {fileID: 0}
+  _enemiesCount: 2
+  _delay: 0
+  _spawnInterval: 0
+  prev: {fileID: 114060376290073298}
+  next: {fileID: 114938380348125692}
+--- !u!114 &114407765310985376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
+  m_Name: Wave Node
+  m_EditorClassIdentifier: 
+  position: {x: -63, y: -48.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  _enemy: {fileID: 1403619770946498, guid: 295d0c7e47eb247178b1cbb57e125482, type: 2}
+  _enemiesCount: 2
+  _delay: 0
+  _spawnInterval: 0
+  prev: {fileID: 114038952448015420}
+  next: {fileID: 114766910385637976}
+--- !u!114 &114460391974759602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Prev
+  m_EditorClassIdentifier: 
+  body: {fileID: 114233381321852632}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114751246658983840}
+  side: 4
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114538056896540170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Prev
+  m_EditorClassIdentifier: 
+  body: {fileID: 114275175597120278}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114101241809867842}
+  side: 4
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114586914228660846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  body: {fileID: 0}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114662318125153204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 114861217358783850}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114684996400094976}
+  side: 3
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114663466371873652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114100127803899062}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114664206853417006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 114083706855365726}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 3
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114684996400094976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  body: {fileID: 114776432962088210}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114662318125153204}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114710109936790172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 114100127803899062}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114855916317245746}
+  side: 3
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114726553800753206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114776432962088210}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114319144496742434}
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114751246658983840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114275175597120278}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114460391974759602}
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114766910385637976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114407765310985376}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114060376290073298}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114776432962088210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 161edeb999cfa424789ac2e1894b79d4, type: 3}
+  m_Name: Level Node
+  m_EditorClassIdentifier: 
+  position: {x: -365, y: -199}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  next: {fileID: 114726553800753206}
+  prev: {fileID: 114824095476126024}
+  waves: {fileID: 114684996400094976}
+  Caption: Level I
+  Gold: 0
+--- !u!114 &114824095476126024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Prev
+  m_EditorClassIdentifier: 
+  body: {fileID: 114776432962088210}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: LevelConnection
+  _connections: []
+  side: 4
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114855916317245746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  body: {fileID: 114233381321852632}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114710109936790172}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114861217358783850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
+  m_Name: Wave Node
+  m_EditorClassIdentifier: 
+  position: {x: -461, y: -3}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  _enemy: {fileID: 1403619770946498, guid: 295d0c7e47eb247178b1cbb57e125482, type: 2}
+  _enemiesCount: 10
+  _delay: 1
+  _spawnInterval: 1
+  prev: {fileID: 114662318125153204}
+  next: {fileID: 114121491455814570}
+--- !u!114 &114927249718960614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 161edeb999cfa424789ac2e1894b79d4, type: 3}
+  m_Name: Level Node
+  m_EditorClassIdentifier: 
+  position: {x: -59, y: -298}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  next: {fileID: 114101241809867842}
+  prev: {fileID: 114319144496742434}
+  waves: {fileID: 114304682737423614}
+  Caption: Level II
+  Gold: 0
+--- !u!114 &114938380348125692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114397952314417928}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0

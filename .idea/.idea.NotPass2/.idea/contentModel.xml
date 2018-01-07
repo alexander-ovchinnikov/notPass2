@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2017.3/system/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_NotPass2.1647831712.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="DOTween43.xml" t="Include" />
+            <e p="DOTween46.xml" t="Include" />
+            <e p="DOTween50.xml" t="Include" />
+            <e p="Examples" t="Include">
+              <e p="Basics.cs" t="Include" />
+              <e p="Sequences.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Editor" t="Include">
+          <e p="Utils" t="Include">
+            <e p="EditorUtilities.cs" t="Include" />
+            <e p="TexturePickerEditor.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ExampleDialogueSystem" t="Include">
+          <e p="ExampleDialogSystem" t="Include">
+            <e p="Core" t="Include">
+              <e p="Canvas" t="Include">
+                <e p="DialogNodeCanvas.cs" t="Include" />
+              </e>
+              <e p="Nodes" t="Include">
+                <e p="BaseDialogNode.cs" t="Include" />
+                <e p="DialogMultiOptionsNode.cs" t="Include" />
+                <e p="DialogNode.cs" t="Include" />
+                <e p="DialogStartNode.cs" t="Include" />
+                <e p="MultiPathSelectorNode.cs" t="Include" />
+              </e>
+              <e p="Utilities" t="Include">
+                <e p="AudioUtils.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Source" t="Include">
+              <e p="Manager" t="Include">
+                <e p="DialogBlackboard.cs" t="Include" />
+                <e p="DialogManager.cs" t="Include" />
+              </e>
+              <e p="MessageBox" t="Include">
+                <e p="ButtonTextHandler.cs" t="Include" />
+                <e p="MessageBoxHud.cs" t="Include" />
+                <e p="OptionsButtonHandler.cs" t="Include" />
+                <e p="OptionsHandler.cs" t="Include" />
+              </e>
+              <e p="Testing" t="Include">
+                <e p="TestScripts.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="External" t="Include">
+          <e p="Node_Editor_Framework" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Node_Editor" t="Include">
+                <e p="CanvasInspector.cs" t="Include" />
+                <e p="NodeEditorWindow.cs" t="Include" />
+                <e p="NodeInspector.cs" t="Include" />
+                <e p="RTCanvasCalculatorEditor.cs" t="Include" />
+                <e p="RTNodeEditorInspector.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Node_Editor" t="Include">
+              <e p="Default" t="Include">
+                <e p="Calculation Base" t="Include">
+                  <e p="CalculationCanvasType.cs" t="Include" />
+                  <e p="CanvasCalculator.cs" t="Include" />
+                  <e p="FloatCalculation.cs" t="Include" />
+                </e>
+                <e p="Graph Example" t="Include">
+                  <e p="GraphCanvasType.cs" t="Include" />
+                  <e p="GraphTraversal.cs" t="Include" />
+                </e>
+                <e p="IO Formats" t="Include">
+                  <e p="XMLImportExport.cs" t="Include" />
+                </e>
+                <e p="Runtime Examples" t="Include">
+                  <e p="RTCanvasCalculator.cs" t="Include" />
+                  <e p="RTNodeEditor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Framework" t="Include">
+                <e p="Core" t="Include">
+                  <e p="ConnectionKnob.cs" t="Include" />
+                  <e p="ConnectionPort.cs" t="Include" />
+                  <e p="ConnectionPortManager.cs" t="Include" />
+                  <e p="Node.cs" t="Include" />
+                  <e p="NodeCanvas.cs" t="Include" />
+                  <e p="NodeCanvasTraversal.cs" t="Include" />
+                  <e p="NodeEditorState.cs" t="Include" />
+                  <e p="NodeGroup.cs" t="Include" />
+                  <e p="ValueConnectionKnob.cs" t="Include" />
+                </e>
+                <e p="CoreExtensions" t="Include">
+                  <e p="ConnectionPortStyles.cs" t="Include" />
+                  <e p="NodeCanvasTypes.cs" t="Include" />
+                  <e p="NodeTypes.cs" t="Include" />
+                </e>
+                <e p="Interface" t="Include">
+                  <e p="NodeEditorCallbackReceiver.cs" t="Include" />
+                  <e p="NodeEditorGUI.cs" t="Include" />
+                  <e p="NodeEditorInputControls.cs" t="Include" />
+                  <e p="NodeEditorInputSystem.cs" t="Include" />
+                  <e p="NodeEditorInterface.cs" t="Include" />
+                </e>
+                <e p="NodeEditor.cs" t="Include" />
+                <e p="SaveSystem" t="Include">
+                  <e p="ImportExportFormat.cs" t="Include" />
+                  <e p="ImportExportManager.cs" t="Include" />
+                  <e p="ImportExportStructure.cs" t="Include" />
+                  <e p="NodeCanvasSceneSave.cs" t="Include" />
+                  <e p="NodeEditorSaveManager.cs" t="Include" />
+                  <e p="NodeEditorUserCache.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Nodes" t="Include">
+                <e p="Example" t="Include">
+                  <e p="AllAroundNode.cs" t="Include" />
+                  <e p="ExampleNode.cs" t="Include" />
+                  <e p="FlowNode.cs" t="Include" />
+                  <e p="ResizingNode.cs" t="Include" />
+                  <e p="RootGraphNode.cs" t="Include" />
+                </e>
+                <e p="FloatCalc" t="Include">
+                  <e p="CalcNode.cs" t="Include" />
+                  <e p="DisplayNode.cs" t="Include" />
+                  <e p="InputNode.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Resources" t="Include">
+                <e p="Shader" t="Include">
+                  <e p="LineShader.shader" t="Include" />
+                </e>
+              </e>
+              <e p="Utilities" t="Include">
+                <e p="EditorLoadingControl.cs" t="Include" />
+                <e p="GUI" t="Include">
+                  <e p="GUIScaleUtility.cs" t="Include" />
+                  <e p="OverlayGUI.cs" t="Include" />
+                  <e p="RTEditorGUI.cs" t="Include" />
+                </e>
+                <e p="ReflectionUtility.cs" t="Include" />
+                <e p="ResourceManager.cs" t="Include" />
+                <e p="link.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="MapEditor" t="Include">
+          <e p="Canvas" t="Include">
+            <e p="MapNodeCanvas.cs" t="Include" />
+          </e>
+          <e p="Manager" t="Include">
+            <e p="MapManager.cs" t="Include" />
+          </e>
+          <e p="Nodes" t="Include">
+            <e p="ISaveable.cs" t="Include" />
+            <e p="LevelNode.cs" t="Include" />
+            <e p="WaveNode.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Player.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProgressBar" t="Include">
+          <e p="Script" t="Include">
+            <e p="ProgressBarBehaviour.cs" t="Include" />
+            <e p="ProgressRadialBehaviour.cs" t="Include" />
+            <e p="Utils.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="BaseComponents" t="Include">
+            <e p="AppearAtPlayerComponent.cs" t="Include" />
+            <e p="DamageInterval.cs" t="Include" />
+            <e p="DamageOnContactEffect.cs" t="Include" />
+            <e p="DestroyOnContact.cs" t="Include" />
+            <e p="MoveComponent.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="WaveEditor" t="Include">
+              <e p="WaveEditorController.cs" t="Include" />
+              <e p="WaveEditorView.cs" t="Include" />
+            </e>
+          </e>
+          <e p="FireBallSpell.cs" t="Include" />
+          <e p="Game" t="Include">
+            <e p="Enemy.cs" t="Include" />
+            <e p="GameControll.cs" t="Include" />
+            <e p="IDamagable.cs" t="Include" />
+            <e p="LevelController.cs" t="Include" />
+            <e p="WaveController.cs" t="Include" />
+            <e p="WaveModel.cs" t="Include" />
+          </e>
+          <e p="Map" t="Include">
+            <e p="Map.cs" t="Include" />
+            <e p="MapLevel.cs" t="Include" />
+          </e>
+          <e p="PlayButton.cs" t="Include" />
+          <e p="Spells" t="Include">
+            <e p="BaseSpell.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="GameController.cs" t="Include" />
+            <e p="SpellBook.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Slider Menu Free_New Edition" t="Include">
+          <e p="Editor" t="Include">
+            <e p="SliderMenu_Inspector.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="SliderMenu.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="NotPass2.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

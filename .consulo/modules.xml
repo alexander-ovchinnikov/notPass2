@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <component name="ModuleManager">
+    <modules>
+      <module name="NotPass2" dirurl="file://$PROJECT_DIR$" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 2017.1.0 (predefined)">
+            <define>DEBUG</define>
+            <define>ENABLE_AUDIO</define>
+            <define>ENABLE_CACHING</define>
+            <define>ENABLE_CLOTH</define>
+            <define>ENABLE_CLOUD_HUB</define>
+            <define>ENABLE_CLOUD_LICENSE</define>
+            <define>ENABLE_CLOUD_PROJECT_ID</define>
+            <define>ENABLE_CLOUD_SERVICES</define>
+            <define>ENABLE_CLOUD_SERVICES_ADS</define>
+            <define>ENABLE_CLOUD_SERVICES_ANALYTICS</define>
+            <define>ENABLE_CLOUD_SERVICES_BUILD</define>
+            <define>ENABLE_CLOUD_SERVICES_COLLAB</define>
+            <define>ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS</define>
+            <define>ENABLE_CLOUD_SERVICES_CRASH_REPORTING</define>
+            <define>ENABLE_CLOUD_SERVICES_PURCHASING</define>
+            <define>ENABLE_CLOUD_SERVICES_UNET</define>
+            <define>ENABLE_CLOUD_SERVICES_USE_WEBREQUEST</define>
+            <define>ENABLE_CLUSTERINPUT</define>
+            <define>ENABLE_CRUNCH_TEXTURE_COMPRESSION</define>
+            <define>ENABLE_CUSTOM_RENDER_TEXTURE</define>
+            <define>ENABLE_DIRECTOR</define>
+            <define>ENABLE_DIRECTOR_AUDIO</define>
+            <define>ENABLE_DUCK_TYPING</define>
+            <define>ENABLE_EDITOR_METRICS</define>
+            <define>ENABLE_EDITOR_METRICS_CACHING</define>
+            <define>ENABLE_GENERICS</define>
+            <define>ENABLE_LZMA</define>
+            <define>ENABLE_MICROPHONE</define>
+            <define>ENABLE_MONO</define>
+            <define>ENABLE_MONO_BDWGC</define>
+            <define>ENABLE_MOVIES</define>
+            <define>ENABLE_MULTIPLE_DISPLAYS</define>
+            <define>ENABLE_NATIVE_ARRAY</define>
+            <define>ENABLE_NATIVE_ARRAY_CHECKS</define>
+            <define>ENABLE_NETWORK</define>
+            <define>ENABLE_PHYSICS</define>
+            <define>ENABLE_PLAYMODE_TESTS_RUNNER</define>
+            <define>ENABLE_PROFILER</define>
+            <define>ENABLE_PVR_GI</define>
+            <define>ENABLE_RAKNET</define>
+            <define>ENABLE_RMGUI</define>
+            <define>ENABLE_RUNTIME_GI</define>
+            <define>ENABLE_RUNTIME_NAVMESH_BUILDING</define>
+            <define>ENABLE_SPRITERENDERER_FLIPPING</define>
+            <define>ENABLE_SPRITES</define>
+            <define>ENABLE_SPRITE_MASKING</define>
+            <define>ENABLE_STYLE_SHEETS</define>
+            <define>ENABLE_SUBSTANCE</define>
+            <define>ENABLE_TERRAIN</define>
+            <define>ENABLE_TIMELINE</define>
+            <define>ENABLE_UNET</define>
+            <define>ENABLE_UNITYEVENTS</define>
+            <define>ENABLE_UNITYWEBREQUEST</define>
+            <define>ENABLE_VIDEO</define>
+            <define>ENABLE_VR</define>
+            <define>ENABLE_WEBCAM</define>
+            <define>ENABLE_WEBSOCKET_CLIENT</define>
+            <define>ENABLE_WEBSOCKET_HOST</define>
+            <define>ENABLE_WWW</define>
+            <define>INCLUDE_DYNAMIC_GI</define>
+            <define>INCLUDE_GI</define>
+            <define>INCLUDE_PUBNUB</define>
+            <define>NET_2_0_SUBSET</define>
+            <define>PLATFORM_ARCH_64</define>
+            <define>PLATFORM_SUPPORTS_MONO</define>
+            <define>RENDER_SOFTWARE_CURSOR</define>
+            <define>TRACE</define>
+            <define>UNITY_2017</define>
+            <define>UNITY_2017_1</define>
+            <define>UNITY_2017_1_0</define>
+            <define>UNITY_2017_1_OR_NEWER</define>
+            <define>UNITY_5_3_OR_NEWER</define>
+            <define>UNITY_5_4_OR_NEWER</define>
+            <define>UNITY_5_5_OR_NEWER</define>
+            <define>UNITY_5_6_OR_NEWER</define>
+            <define>UNITY_64</define>
+            <define>UNITY_ANALYTICS</define>
+            <define>UNITY_ASSERTIONS</define>
+            <define>UNITY_EDITOR</define>
+            <define>UNITY_EDITOR_64</define>
+            <define>UNITY_EDITOR_LINUX</define>
+            <define>UNITY_STANDALONE</define>
+            <define>UNITY_STANDALONE_LINUX</define>
+            <define>UNITY_STANDALONE_LINUX_API</define>
+            <define>UNITY_TEAM_LICENSE</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/out" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-firstpass" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_6_0" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Timeline" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Runtime.Serialization" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-UnityScript-firstpass" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Timeline" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Runtime.Serialization" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-Editor" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_6_0" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/Editor/WaveEditor/WaveEditorController.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/Editor/WaveEditor/WaveEditorController.cs.meta" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/Editor/WaveEditor/WaveEditorView.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/Editor/WaveEditor/WaveEditorView.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Timeline" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Timeline" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Runtime.Serialization" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/work/NotPass2/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.6.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_6_0" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/FireBallSpell.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/PlayButton.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/Spells/BaseSpell.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/game/Enemy.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/game/Enemy.cs.meta" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/game/LevelController.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/game/LevelController.cs.meta" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/game/WaveController.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/game/WaveController.cs.meta" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/game/WaveModel.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/game/WaveModel.cs.meta" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/map/Map.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/map/Map.cs.meta" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/map/MapLevel.cs" />
+          <content url="file://$USER_HOME$/work/NotPass2/Assets/Scripts/map/MapLevel.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Timeline" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Runtime.Serialization" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/work/NotPass2/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.6.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+      </module>
+    </modules>
+  </component>
+</project>
