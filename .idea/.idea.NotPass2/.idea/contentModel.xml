@@ -187,9 +187,11 @@
         <e p="Scripts" t="Include">
           <e p="BaseComponents" t="Include">
             <e p="AppearAtPlayerComponent.cs" t="Include" />
+            <e p="Damagable.cs" t="Include" />
             <e p="DamageInterval.cs" t="Include" />
             <e p="DamageOnContactEffect.cs" t="Include" />
             <e p="DestroyOnContact.cs" t="Include" />
+            <e p="DissapearTimeout.cs" t="Include" />
             <e p="MoveComponent.cs" t="Include" />
           </e>
           <e p="Editor" t="Include">

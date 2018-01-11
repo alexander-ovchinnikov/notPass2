@@ -54,11 +54,6 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\Utils\EditorUtilities.cs" />
     <Compile Include="Assets\Editor\Utils\TexturePickerEditor.cs" />
-    <Compile Include="Assets\External\Node_Editor_Framework.copy\Editor\Node_Editor\CanvasInspector.cs" />
-    <Compile Include="Assets\External\Node_Editor_Framework.copy\Editor\Node_Editor\NodeEditorWindow.cs" />
-    <Compile Include="Assets\External\Node_Editor_Framework.copy\Editor\Node_Editor\NodeInspector.cs" />
-    <Compile Include="Assets\External\Node_Editor_Framework.copy\Editor\Node_Editor\RTCanvasCalculatorEditor.cs" />
-    <Compile Include="Assets\External\Node_Editor_Framework.copy\Editor\Node_Editor\RTNodeEditorInspector.cs" />
     <Compile Include="Assets\External\Node_Editor_Framework\Editor\Node_Editor\CanvasInspector.cs" />
     <Compile Include="Assets\External\Node_Editor_Framework\Editor\Node_Editor\NodeEditorWindow.cs" />
     <Compile Include="Assets\External\Node_Editor_Framework\Editor\Node_Editor\NodeInspector.cs" />
@@ -67,14 +62,12 @@
     <Compile Include="Assets\Scripts\Editor\WaveEditor\WaveEditorController.cs" />
     <Compile Include="Assets\Scripts\Editor\WaveEditor\WaveEditorView.cs" />
     <Compile Include="Assets\Slider Menu Free_New Edition\Editor\SliderMenu_Inspector.cs" />
-    <None Include="Assets\External\Node_Editor_Framework.copy\Node_Editor\Utilities\link.xml" />
+    <None Include="Assets\External\Node_Editor_Framework\Node_Editor\Utilities\link.xml" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <None Include="Assets\External\Node_Editor_Framework\Node_Editor\Resources\Shader\LineShader.shader" />
-    <None Include="Assets\External\Node_Editor_Framework.copy\Node_Editor\Resources\Shader\LineShader.shader" />
     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
-    <None Include="Assets\External\Node_Editor_Framework\Node_Editor\Utilities\link.xml" />
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>

@@ -33,7 +33,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4780444586912374
 Transform:
   m_ObjectHideFlags: 1
@@ -54,7 +54,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1744883257746714}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -127,8 +127,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964ae3622176241f19dd371465951fcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _distanceX: 10
-  speed: 4
+  _distanceX: 1
+  speed: 1
+  _stopOnCollide: 0
+  targetTag: 
 --- !u!114 &114923793456372046
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -152,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21cd0847b57ea4aefa98ed4949355a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTag: 
+  targetTag: Enemy
 --- !u!212 &212800825366393304
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -412,7 +412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211498cd2757948d58d790afdb19bb50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 11400000, guid: 15fd819a1e93249c8b46acba6de903b2, type: 2}
+  map: {fileID: 11400000, guid: 8f4a8bc7cb4794c80b82a372c23afa56, type: 2}
   SlidesContainer: {fileID: 1398288244827340}
   SlidePrefab: {fileID: 1979513051892726, guid: 37085a943c4604ae4b7219ecc0386464,
     type: 2}
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114359877503156134}
   m_HandleRect: {fileID: 224507285895969536}
   m_Direction: 3
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

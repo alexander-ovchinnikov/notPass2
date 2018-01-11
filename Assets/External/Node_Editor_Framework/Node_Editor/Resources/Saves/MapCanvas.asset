@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Name: MapCanvas
   m_EditorClassIdentifier: 
   editorStates:
-  - {fileID: 114193627497078726}
+  - {fileID: 114548361820171738}
   saveName: MapCanvas
   savePath: Assets/External/Node_Editor_Framework/Node_Editor/Resources/Saves/MapCanvas.asset
   livesInScene: 0
   nodes:
-  - {fileID: 114776432962088210}
-  - {fileID: 114861217358783850}
-  - {fileID: 114927249718960614}
-  - {fileID: 114233381321852632}
-  - {fileID: 114275175597120278}
-  - {fileID: 114397952314417928}
-  - {fileID: 114407765310985376}
-  - {fileID: 114083706855365726}
-  - {fileID: 114100127803899062}
+  - {fileID: 114279764410916592}
+  - {fileID: 114051888883590494}
+  - {fileID: 114465343693930060}
+  - {fileID: 114608208533945384}
+  - {fileID: 114606370175868160}
+  - {fileID: 114244477344614158}
+  - {fileID: 114589861798366846}
+  - {fileID: 114867816193347566}
+  - {fileID: 114237066773761334}
   groups: []
   Name: Map
 --- !u!114 &114031493220624930
@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Wave
   m_EditorClassIdentifier: 
-  body: {fileID: 114275175597120278}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: WaveConnection
@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Previous
   m_EditorClassIdentifier: 
-  body: {fileID: 114407765310985376}
+  body: {fileID: 0}
   direction: 0
   maxConnectionCount: 1
   styleID: WaveConnection
@@ -67,47 +67,7 @@ MonoBehaviour:
   side: 3
   sidePosition: 30
   sideOffset: 0
---- !u!114 &114060376290073298
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
-  m_Name: Previous
-  m_EditorClassIdentifier: 
-  body: {fileID: 114397952314417928}
-  direction: 0
-  maxConnectionCount: 1
-  styleID: WaveConnection
-  _connections:
-  - {fileID: 114766910385637976}
-  side: 3
-  sidePosition: 30
-  sideOffset: 0
---- !u!114 &114083706855365726
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
-  m_Name: Wave Node
-  m_EditorClassIdentifier: 
-  position: {x: 185, y: -15.5}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  _enemy: {fileID: 1403619770946498, guid: 295d0c7e47eb247178b1cbb57e125482, type: 2}
-  _enemiesCount: 2
-  _delay: 0
-  _spawnInterval: 0
-  prev: {fileID: 114664206853417006}
-  next: {fileID: 114155280563036550}
---- !u!114 &114100127803899062
+--- !u!114 &114051888883590494
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -125,8 +85,47 @@ MonoBehaviour:
   _enemiesCount: 2
   _delay: 0
   _spawnInterval: 0
-  prev: {fileID: 114710109936790172}
-  next: {fileID: 114663466371873652}
+  prev: {fileID: 114194344048377098}
+  next: {fileID: 114747527782099394}
+--- !u!114 &114060376290073298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 0}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114766910385637976}
+  side: 3
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114080408859968896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Prev
+  m_EditorClassIdentifier: 
+  body: {fileID: 114244477344614158}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: LevelConnection
+  _connections: []
+  side: 4
+  sidePosition: 30
+  sideOffset: 0
 --- !u!114 &114101241809867842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -138,12 +137,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Next
   m_EditorClassIdentifier: 
-  body: {fileID: 114927249718960614}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: LevelConnection
   _connections:
   - {fileID: 114538056896540170}
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114119692635385932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Prev
+  m_EditorClassIdentifier: 
+  body: {fileID: 114867816193347566}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114947633951894616}
+  side: 4
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114120320806275970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114244477344614158}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114613028907620414}
   side: 2
   sidePosition: 30
   sideOffset: 0
@@ -158,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Next
   m_EditorClassIdentifier: 
-  body: {fileID: 114861217358783850}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: WaveConnection
@@ -177,11 +216,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Next
   m_EditorClassIdentifier: 
-  body: {fileID: 114083706855365726}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: WaveConnection
   _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114184875712207108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114606370175868160}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114208375413275094}
   side: 1
   sidePosition: 30
   sideOffset: 0
@@ -201,6 +260,66 @@ MonoBehaviour:
   selectedNode: {fileID: 0}
   panOffset: {x: -261, y: -65}
   zoom: 1
+--- !u!114 &114194344048377098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 114051888883590494}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114302420717050420}
+  side: 3
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114208375413275094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 114608208533945384}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114184875712207108}
+  side: 3
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114215424210111276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  body: {fileID: 114237066773761334}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114673199317820476}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
 --- !u!114 &114218640087578142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -212,7 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Next
   m_EditorClassIdentifier: 
-  body: {fileID: 114233381321852632}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: LevelConnection
@@ -220,26 +339,7 @@ MonoBehaviour:
   side: 2
   sidePosition: 30
   sideOffset: 0
---- !u!114 &114233381321852632
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 161edeb999cfa424789ac2e1894b79d4, type: 3}
-  m_Name: Level Node
-  m_EditorClassIdentifier: 
-  position: {x: 441, y: -138.5}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  next: {fileID: 114218640087578142}
-  prev: {fileID: 114460391974759602}
-  waves: {fileID: 114855916317245746}
-  Caption: 
-  Gold: 0
---- !u!114 &114275175597120278
+--- !u!114 &114237066773761334
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -253,11 +353,95 @@ MonoBehaviour:
   position: {x: 208, y: -266.5}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  next: {fileID: 114751246658983840}
-  prev: {fileID: 114538056896540170}
-  waves: {fileID: 114031493220624930}
+  next: {fileID: 114947633951894616}
+  prev: {fileID: 114897717586109288}
+  waves: {fileID: 114215424210111276}
   Caption: 
   Gold: 0
+  Guid: 62c9c861-d49c-4796-aca3-f0ab1e02062b
+  IsComplete: 0
+  IsAvailable: 0
+--- !u!114 &114244477344614158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 161edeb999cfa424789ac2e1894b79d4, type: 3}
+  m_Name: Level Node
+  m_EditorClassIdentifier: 
+  position: {x: -639, y: -266}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  next: {fileID: 114120320806275970}
+  prev: {fileID: 114080408859968896}
+  waves: {fileID: 114473263105907486}
+  Caption: Level I
+  Gold: 0
+  Guid: 7119eab2-e12b-41e9-8a1c-1a8f4e59860a
+  IsComplete: 0
+  IsAvailable: 1
+--- !u!114 &114279764410916592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
+  m_Name: Wave Node
+  m_EditorClassIdentifier: 
+  position: {x: 185, y: -15.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  _enemy: {fileID: 1403619770946498, guid: 295d0c7e47eb247178b1cbb57e125482, type: 2}
+  _enemiesCount: 2
+  _delay: 0
+  _spawnInterval: 0
+  prev: {fileID: 114673199317820476}
+  next: {fileID: 114374470705372682}
+--- !u!114 &114288313429065266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114867816193347566}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: LevelConnection
+  _connections: []
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114302420717050420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  body: {fileID: 114867816193347566}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114194344048377098}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
 --- !u!114 &114304682737423614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -269,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Wave
   m_EditorClassIdentifier: 
-  body: {fileID: 114927249718960614}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: WaveConnection
@@ -289,7 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Prev
   m_EditorClassIdentifier: 
-  body: {fileID: 114927249718960614}
+  body: {fileID: 0}
   direction: 1
   maxConnectionCount: 0
   styleID: LevelConnection
@@ -317,7 +501,7 @@ MonoBehaviour:
   side: 1
   sidePosition: 30
   sideOffset: 0
---- !u!114 &114397952314417928
+--- !u!114 &114374470705372682
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -325,38 +509,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
-  m_Name: Wave Node
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Next
   m_EditorClassIdentifier: 
-  position: {x: -100, y: 145.5}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  _enemy: {fileID: 0}
-  _enemiesCount: 2
-  _delay: 0
-  _spawnInterval: 0
-  prev: {fileID: 114060376290073298}
-  next: {fileID: 114938380348125692}
---- !u!114 &114407765310985376
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
-  m_Name: Wave Node
-  m_EditorClassIdentifier: 
-  position: {x: -63, y: -48.5}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  _enemy: {fileID: 1403619770946498, guid: 295d0c7e47eb247178b1cbb57e125482, type: 2}
-  _enemiesCount: 2
-  _delay: 0
-  _spawnInterval: 0
-  prev: {fileID: 114038952448015420}
-  next: {fileID: 114766910385637976}
+  body: {fileID: 114279764410916592}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
 --- !u!114 &114460391974759602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -368,13 +531,93 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Prev
   m_EditorClassIdentifier: 
-  body: {fileID: 114233381321852632}
+  body: {fileID: 0}
   direction: 1
   maxConnectionCount: 0
   styleID: LevelConnection
   _connections:
   - {fileID: 114751246658983840}
   side: 4
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114465343693930060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
+  m_Name: Wave Node
+  m_EditorClassIdentifier: 
+  position: {x: -138, y: -65.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  _enemy: {fileID: 1403619770946498, guid: 295d0c7e47eb247178b1cbb57e125482, type: 2}
+  _enemiesCount: 2
+  _delay: 0
+  _spawnInterval: 0
+  prev: {fileID: 114500543077135316}
+  next: {fileID: 114841585846090356}
+--- !u!114 &114473263105907486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  body: {fileID: 114244477344614158}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114505395748429056}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114500543077135316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 114465343693930060}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114892516826013354}
+  side: 3
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114505395748429056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 114606370175868160}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114473263105907486}
+  side: 3
   sidePosition: 30
   sideOffset: 0
 --- !u!114 &114538056896540170
@@ -388,7 +631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Prev
   m_EditorClassIdentifier: 
-  body: {fileID: 114275175597120278}
+  body: {fileID: 0}
   direction: 1
   maxConnectionCount: 0
   styleID: LevelConnection
@@ -397,6 +640,22 @@ MonoBehaviour:
   side: 4
   sidePosition: 30
   sideOffset: 0
+--- !u!114 &114548361820171738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb1607355560840d4923437cf5901916, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  parentEditor: {fileID: 0}
+  selectedNode: {fileID: 114237066773761334}
+  panOffset: {x: 0, y: 0}
+  zoom: 1
 --- !u!114 &114586914228660846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -416,6 +675,88 @@ MonoBehaviour:
   side: 1
   sidePosition: 30
   sideOffset: 0
+--- !u!114 &114589861798366846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 161edeb999cfa424789ac2e1894b79d4, type: 3}
+  m_Name: Level Node
+  m_EditorClassIdentifier: 
+  position: {x: -388, y: -266}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  next: {fileID: 114749406653373780}
+  prev: {fileID: 114613028907620414}
+  waves: {fileID: 114892516826013354}
+  Caption: Level II
+  Gold: 0
+  Guid: 5aff23bf-ebca-4a61-92a0-60f1822a6cff
+  IsComplete: 0
+  IsAvailable: 0
+--- !u!114 &114606370175868160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
+  m_Name: Wave Node
+  m_EditorClassIdentifier: 
+  position: {x: -691, y: -38}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  _enemy: {fileID: 1403619770946498, guid: 295d0c7e47eb247178b1cbb57e125482, type: 2}
+  _enemiesCount: 10
+  _delay: 1
+  _spawnInterval: 1
+  prev: {fileID: 114505395748429056}
+  next: {fileID: 114184875712207108}
+--- !u!114 &114608208533945384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
+  m_Name: Wave Node
+  m_EditorClassIdentifier: 
+  position: {x: -571, y: 208.5}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  _enemy: {fileID: 0}
+  _enemiesCount: 2
+  _delay: 0
+  _spawnInterval: 0
+  prev: {fileID: 114208375413275094}
+  next: {fileID: 114859087582971132}
+--- !u!114 &114613028907620414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Prev
+  m_EditorClassIdentifier: 
+  body: {fileID: 114589861798366846}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114120320806275970}
+  side: 4
+  sidePosition: 30
+  sideOffset: 0
 --- !u!114 &114662318125153204
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -427,7 +768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Previous
   m_EditorClassIdentifier: 
-  body: {fileID: 114861217358783850}
+  body: {fileID: 0}
   direction: 0
   maxConnectionCount: 1
   styleID: WaveConnection
@@ -447,7 +788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Next
   m_EditorClassIdentifier: 
-  body: {fileID: 114100127803899062}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: WaveConnection
@@ -466,11 +807,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Previous
   m_EditorClassIdentifier: 
-  body: {fileID: 114083706855365726}
+  body: {fileID: 0}
   direction: 0
   maxConnectionCount: 1
   styleID: WaveConnection
   _connections: []
+  side: 3
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114673199317820476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Previous
+  m_EditorClassIdentifier: 
+  body: {fileID: 114279764410916592}
+  direction: 0
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114215424210111276}
   side: 3
   sidePosition: 30
   sideOffset: 0
@@ -485,7 +846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Wave
   m_EditorClassIdentifier: 
-  body: {fileID: 114776432962088210}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: WaveConnection
@@ -505,7 +866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Previous
   m_EditorClassIdentifier: 
-  body: {fileID: 114100127803899062}
+  body: {fileID: 0}
   direction: 0
   maxConnectionCount: 1
   styleID: WaveConnection
@@ -525,12 +886,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Next
   m_EditorClassIdentifier: 
-  body: {fileID: 114776432962088210}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: LevelConnection
   _connections:
   - {fileID: 114319144496742434}
+  side: 2
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114747527782099394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114051888883590494}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114749406653373780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114589861798366846}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114897717586109288}
   side: 2
   sidePosition: 30
   sideOffset: 0
@@ -545,7 +945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Next
   m_EditorClassIdentifier: 
-  body: {fileID: 114275175597120278}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: LevelConnection
@@ -565,7 +965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Next
   m_EditorClassIdentifier: 
-  body: {fileID: 114407765310985376}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: WaveConnection
@@ -574,25 +974,6 @@ MonoBehaviour:
   side: 1
   sidePosition: 30
   sideOffset: 0
---- !u!114 &114776432962088210
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 161edeb999cfa424789ac2e1894b79d4, type: 3}
-  m_Name: Level Node
-  m_EditorClassIdentifier: 
-  position: {x: -365, y: -199}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  next: {fileID: 114726553800753206}
-  prev: {fileID: 114824095476126024}
-  waves: {fileID: 114684996400094976}
-  Caption: Level I
-  Gold: 0
 --- !u!114 &114824095476126024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -604,12 +985,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Prev
   m_EditorClassIdentifier: 
-  body: {fileID: 114776432962088210}
+  body: {fileID: 0}
   direction: 1
   maxConnectionCount: 0
   styleID: LevelConnection
   _connections: []
   side: 4
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114841585846090356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114465343693930060}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
   sidePosition: 30
   sideOffset: 0
 --- !u!114 &114855916317245746
@@ -623,7 +1023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Wave
   m_EditorClassIdentifier: 
-  body: {fileID: 114233381321852632}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: WaveConnection
@@ -632,7 +1032,7 @@ MonoBehaviour:
   side: 1
   sidePosition: 30
   sideOffset: 0
---- !u!114 &114861217358783850
+--- !u!114 &114859087582971132
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -640,19 +1040,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05b57fabd28844b5fa21dae376e525c1, type: 3}
-  m_Name: Wave Node
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Next
   m_EditorClassIdentifier: 
-  position: {x: -461, y: -3}
-  dynamicConnectionPorts: []
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  _enemy: {fileID: 1403619770946498, guid: 295d0c7e47eb247178b1cbb57e125482, type: 2}
-  _enemiesCount: 10
-  _delay: 1
-  _spawnInterval: 1
-  prev: {fileID: 114662318125153204}
-  next: {fileID: 114121491455814570}
---- !u!114 &114927249718960614
+  body: {fileID: 114608208533945384}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections: []
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114867816193347566
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -663,14 +1062,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 161edeb999cfa424789ac2e1894b79d4, type: 3}
   m_Name: Level Node
   m_EditorClassIdentifier: 
-  position: {x: -59, y: -298}
+  position: {x: 441, y: -138.5}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  next: {fileID: 114101241809867842}
-  prev: {fileID: 114319144496742434}
-  waves: {fileID: 114304682737423614}
-  Caption: Level II
+  next: {fileID: 114288313429065266}
+  prev: {fileID: 114119692635385932}
+  waves: {fileID: 114302420717050420}
+  Caption: 
   Gold: 0
+  Guid: 7f1fb63e-24b7-4391-a4d1-8e9ba989e098
+  IsComplete: 0
+  IsAvailable: 0
+--- !u!114 &114892516826013354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  body: {fileID: 114589861798366846}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: WaveConnection
+  _connections:
+  - {fileID: 114500543077135316}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114897717586109288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Prev
+  m_EditorClassIdentifier: 
+  body: {fileID: 114237066773761334}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114749406653373780}
+  side: 4
+  sidePosition: 30
+  sideOffset: 0
 --- !u!114 &114938380348125692
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -682,11 +1124,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017e2c7fd038ecb46b317c1e003f31dc, type: 3}
   m_Name: Next
   m_EditorClassIdentifier: 
-  body: {fileID: 114397952314417928}
+  body: {fileID: 0}
   direction: 2
   maxConnectionCount: 1
   styleID: WaveConnection
   _connections: []
   side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114947633951894616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1899387f544b4504a7a346cc7387093, type: 3}
+  m_Name: Next
+  m_EditorClassIdentifier: 
+  body: {fileID: 114237066773761334}
+  direction: 2
+  maxConnectionCount: 1
+  styleID: LevelConnection
+  _connections:
+  - {fileID: 114119692635385932}
+  side: 2
   sidePosition: 30
   sideOffset: 0

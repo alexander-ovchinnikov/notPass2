@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using DG.Tweening;
-using Game;
+﻿using Game;
 using UnityEditor;
 using UnityEngine;
 
@@ -11,11 +7,22 @@ public class DamageOnContactEffect : MonoBehaviour
     [SerializeField] private int damage = 0;
     [HideInInspector] [SerializeField] public string targetTag = "";
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Damage(other.gameObject);
+    }
+
+
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == targetTag)
+        Damage(other.gameObject);
+    }
+
+    private void Damage(GameObject other)
+    {
+        if (other.tag == targetTag)
         {
-            IDamagable damagable = other.gameObject.GetComponent<IDamagable>();
+            IDamagable damagable = other.GetComponent<IDamagable>();
             if (damagable != null)
             {
                 damagable.GetHit(this.damage);
@@ -24,12 +31,10 @@ public class DamageOnContactEffect : MonoBehaviour
     }
 }
 
-
 [CustomEditor(typeof(DamageOnContactEffect))]
 public class DamageOnContactEditor : Editor
 {
     private string _tag;
-
 
     private void OnEnable()
     {
@@ -42,7 +47,7 @@ public class DamageOnContactEditor : Editor
         // Draw the default inspector
         DrawDefaultInspector();
         _tag = EditorGUILayout.TagField(_tag);
-        t.targetTag = _tag;
+        if (t != null) t.targetTag = _tag;
 
         EditorUtility.SetDirty(target);
     }

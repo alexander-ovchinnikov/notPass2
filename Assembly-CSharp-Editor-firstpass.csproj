@@ -53,14 +53,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\Editor\JetBrains\Unity3DRider.cs" />
-    <None Include="Assets\External\Node_Editor_Framework.copy\Node_Editor\Utilities\link.xml" />
+    <None Include="Assets\External\Node_Editor_Framework\Node_Editor\Utilities\link.xml" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <None Include="Assets\External\Node_Editor_Framework\Node_Editor\Resources\Shader\LineShader.shader" />
-    <None Include="Assets\External\Node_Editor_Framework.copy\Node_Editor\Resources\Shader\LineShader.shader" />
     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
-    <None Include="Assets\External\Node_Editor_Framework\Node_Editor\Utilities\link.xml" />
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
